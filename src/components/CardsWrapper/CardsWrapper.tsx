@@ -5,9 +5,9 @@ import "./cardsWrapper.scss";
 export const CardsWrapper = () => {
   const [activeCards, setActiveCards] = useState<string[]>([]);
   const backImages = [
-    "/assets/card-back1.png",
-    "/assets/card-back2.png",
-    "/assets/card-back3.png",
+    "./src/assets/card-back1.png",
+    "./src/assets/card-back2.png",
+    "./src/assets/card-back3.png",
   ];
 
   const handleOpenCard = (name: string) => {

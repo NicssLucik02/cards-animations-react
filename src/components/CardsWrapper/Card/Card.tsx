@@ -15,7 +15,7 @@ export const Card: React.FC<Props> = ({
   const soundRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    soundRef.current = new Audio("/assets/flipping-card-sound.mp3");
+    soundRef.current = new Audio("./src/assets/flipping-card-sound.mp3");
   }, []);
 
   const playSound = () => {
@@ -43,7 +43,7 @@ export const Card: React.FC<Props> = ({
       >
         <div className="card-front">
           <img
-            src="/assets/card-front.jpg"
+            src="./src/assets/card-front.jpg"
             className="card-front__image"
             alt="card-front"
           />

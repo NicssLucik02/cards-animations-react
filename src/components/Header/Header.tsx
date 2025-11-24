@@ -13,7 +13,7 @@ export const Header = () => {
 
       <div>
         <img
-          src={theme === "dark" ? "./assets/sun.svg" : "./assets/moon.svg"}
+          src={theme === "dark" ? "./src/assets/sun.svg" : "./src/assets/moon.svg"}
           className="theme-icon"
           alt="dark/light theme"
           onClick={() => {
